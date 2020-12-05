@@ -4,5 +4,17 @@
 }
 
 .people-card {
-  background-color: #3F3F3F; 
+  background-color: #3F3F3F;
+  width: 90%;
+  border: none;
+  margin: auto;
+}
+
+.people-card .card-header {
+  background-color: #3f3f3f;
+  border: none;
+}
+
+.people-img {
+  width: 60%;
 }
