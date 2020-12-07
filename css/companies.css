@@ -1,0 +1,52 @@
+
+
+#stats {
+  font-family: "Antic Slab", serif;
+  padding: 6% 9% 0;
+  text-align: center;
+}
+
+
+/* Companies */
+
+#companies {
+
+}
+
+.company-box {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 13% 13%;
+}
+
+.company-img {
+  width: 95%;
+  left: 2.5%;
+  position: absolute;
+  top: 25%;
+}
+
+.company-text {
+  width: 100%;
+  top: 100%;
+  padding: 4% 4%;
+  padding-bottom: 100%;
+  text-align: center;
+  position: absolute;
+  background-color: rgba(196, 191, 192, .75);
+  color: #000;
+  transition: top ease 1s;
+}
+
+.company-box:hover .company-text {
+  top: 0;
+}
+
+.btn-company {
+  width: 50%;
+  margin: 4% auto;
+  vertical-align: middle;
+}

@@ -50,6 +50,10 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.big-number {
+  font-size: 4rem;
+}
+
 .name {
   font-size: 2rem;
   border-bottom: 1px solid;
