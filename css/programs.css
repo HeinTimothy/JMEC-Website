@@ -1,0 +1,43 @@
+#program-overview {
+  padding: 5% 13%;
+}
+
+.program-card:hover {
+  top: -5px;
+}
+
+.program-card {
+  background-color: #3F3F3F;
+  color: #fff;
+  top: 0;
+  transition: ease 0.5s;
+}
+
+.program-card .name {
+  font-size: 1.5rem;
+}
+
+.program-section {
+  padding: 2% 5%;
+}
+
+.program-section .callout {
+  font-size: 2rem;
+}
+
+.program-img {
+  width: 100%;
+}
+
+.program-intro {
+  padding: 5% 20%;
+}
+
+.program-intro .callout {
+  text-align: left;
+}
+
+.program-intro .big-number {
+  font-size: 4rem;
+  line-height: 25%;
+}

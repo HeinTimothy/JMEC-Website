@@ -5,7 +5,6 @@ html, body, h2 {
 body {
   font-family: "Fira Sans", sans-serif;
   font-weight: 200;
-  margin-right: 0%
 }
 
 p {
@@ -44,6 +43,7 @@ a:hover {
 .section-heading {
   font-family: "Antic Slab", serif;
   font-size: 4rem;
+  text-align: center;
 }
 
 .big-text {
@@ -207,6 +207,7 @@ a:hover {
   width: 100%;
   color: #000;
   padding: 3% 5%;
+  text-align: left;
 }
 
 .involved-image {
