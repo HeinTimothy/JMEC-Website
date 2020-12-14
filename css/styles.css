@@ -215,9 +215,15 @@ a:hover {
   text-align: left;
 }
 
+.involved-img {
+  max-width: 800px;
+  width: 45%;
+  overflow-x: hidden;
+}
+
 .involved-image {
   height: 600px;
-  margin-left: -10%;
+  vertical-align: middle;
   padding: 0;
 }
 
@@ -225,6 +231,7 @@ a:hover {
   padding: 3% 5%;
   background-color: #3F3F3F;
   font-size: 1.25rem;
+  max-width: 55%;
 }
 
 .involved-icon {
