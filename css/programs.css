@@ -13,7 +13,7 @@
   transition: ease 0.5s;
 }
 
-.program-card .name {
+.program-section .name {
   font-size: 1.5rem;
 }
 
@@ -22,7 +22,8 @@
 }
 
 .program-section .callout {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  padding-bottom: 0;
 }
 
 .program-img {
@@ -39,4 +40,13 @@
 
 .program-intro .big-number {
   line-height: 25%;
+}
+
+.program-benifits {
+  padding: 5% 12%;
+}
+
+.benifit-icon {
+  font-size: 3rem;
+  padding-bottom: 2%;
 }
