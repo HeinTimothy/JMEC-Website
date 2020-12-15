@@ -1,7 +1,6 @@
 
 
 #stats {
-  font-family: "Antic Slab", serif;
   padding: 6% 9% 0;
   text-align: center;
 }
@@ -17,16 +16,19 @@
   position: relative;
   width: 100%;
   padding-top: 100%;
+  margin-bottom: 5%;
   overflow: hidden;
   background-color: #fff;
 }
 
 .company-img {
-  width: 95%;
+  max-width: 95%;
+  max-height: 90%;
   position: absolute;
   top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .company-text {

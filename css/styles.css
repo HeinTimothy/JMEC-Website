@@ -1,5 +1,6 @@
 html, body, h2 {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,8 +22,8 @@ a:hover {
 }
 
 .coloured-section {
-  background-color: #FF6C4D;
-  color: #3F3F3F;
+  background-color: #2F2F2F;
+  color: #fff;
 }
 
 .uncoloured-section {
@@ -31,8 +32,8 @@ a:hover {
 }
 
 .coloured-text {
-  color: #FD8E53;
-  border-color: #FD8E53;
+  color: #DAAA00;
+  border-color: #DAAA00;
 }
 
 .uncoloured-text {
@@ -41,8 +42,10 @@ a:hover {
 }
 
 .section-heading {
-  font-family: "Antic Slab", serif;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 400;
   font-size: 4rem;
+  padding: 3% 3%;
   text-align: center;
 }
 
@@ -51,6 +54,8 @@ a:hover {
 }
 
 .big-number {
+  font-family: "Source Serfit Pro", serif;
+  font-weight: 600;
   font-size: 4rem;
 }
 
@@ -60,7 +65,8 @@ a:hover {
 }
 
 .small-title {
-  font-family: "Antic Slab", serif;
+  font-family: "Source Sefif Pro", serif;
+  font-weight: 300;
   font-size: 3rem;
 }
 
@@ -73,16 +79,16 @@ a:hover {
 }
 
 .btn-coloured {
-  background-color: #FF6C4D;
-  color: #fff;
+  background-color: #DAAA00;
+  color: #3F3F3F;
   border-color: #fff;
   border-style: none;
   text-align: center;
 }
 
 .btn-coloured:hover {
-  color: #fff;
-  background-color: #DF5C3D;
+  color: #3F3F3F;
+  background-color: #CA9A00;
 }
 
 .profile-pic {
@@ -121,7 +127,8 @@ a:hover {
   width: 100%;
   padding: 2% 0;
   padding-left: 10%;
-  font-family: "Antic Slab", serif;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 300;
   font-size: 3rem;
   background-color: rgba(196, 191, 192, .75);
 }
@@ -141,13 +148,8 @@ a:hover {
 .direction-btn {
   padding: 2%;
   height: 150%;
-  border: 5px solid;
+  border: 5px solid #fff;
   font-size: 1.5rem;
-}
-
-.direction-btn:hover {
-  color: #fff;
-  font-weight: bolder;
 }
 
 /* Pipeline */
@@ -235,7 +237,7 @@ a:hover {
 }
 
 .involved-icon {
-  color: #FD8E53;
+  color: #DAAA00;
 }
 
 /* Featured */
@@ -269,6 +271,10 @@ a:hover {
   padding: 2% 0;
 }
 
+#network .profile-pic {
+  width: 100%;
+}
+
 /* Footer */
 
 #footer {
@@ -286,17 +292,17 @@ a:hover {
 }
 
 .footer-icon {
-  color: #3F3F3F;
+  color: #DAAA00;
   font-size: 2.5rem;
   padding: 2% 1%;
 }
 
 .footer-link {
-  color: #3F3F3F;
+  color: #fff;
   padding: 2% 1% 2% 1%;
 }
 
 .footer-link:hover {
-  color: #393939;
+  color: #ddd;
   font-style: normal;
 }

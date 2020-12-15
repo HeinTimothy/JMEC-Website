@@ -1,3 +1,7 @@
+.section-heading {
+  margin-bottom: 0;
+}
+
 #program-overview {
   padding: 5% 13%;
 }
@@ -11,6 +15,12 @@
   color: #fff;
   top: 0;
   transition: ease 0.5s;
+  text-align: center;
+}
+
+.program-card .card-img {
+  width: 100%;
+  margin-bottom: 3%;
 }
 
 .program-section .name {
