@@ -8,7 +8,7 @@ body {
   font-weight: 200;
 }
 
-p {
+p, li {
   font-size: 1.2rem;
 }
 
@@ -158,16 +158,13 @@ a:hover {
 
 /* Offices */
 #offices {
-  padding: 5% 9%;
+  padding: 5% 9% 8%;
   text-align: center;
 }
 
 .office-card {
-  color: #3F3F3F;
-  background-color: #fff;
-  border: 5px #fff solid;
   border-radius: 7px;
-  margin-top: 10%;
+  height: 100%;
 }
 
 /* Get Involved */
@@ -200,11 +197,13 @@ a:hover {
   padding: 3% 5%;
   background-color: #3F3F3F;
   font-size: 1.25rem;
+  line-height: 2rem;
   max-width: 55%;
 }
 
 .involved-icon {
   color: #DAAA00;
+  font-size: 2rem;
 }
 
 /* Featured */
@@ -228,6 +227,46 @@ a:hover {
   width: 25%;
 }
 
+.company-box {
+  position: relative;
+  padding-top: 100%;
+  margin-bottom: 5%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.company-img {
+  max-width: 95%;
+  max-height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.company-text {
+  width: 100%;
+  top: 100%;
+  padding: 4% 4%;
+  padding-bottom: 100%;
+  font-size: .9rem;
+  text-align: center;
+  position: absolute;
+  background-color: rgba(196, 191, 192, .75);
+  color: #000;
+  transition: top ease 1s;
+}
+
+.company-box:hover .company-text {
+  top: 0;
+}
+
+.btn-company {
+  width: 50%;
+  margin: 4% auto;
+}
+
 /* Network */
 
 #network {
@@ -240,6 +279,29 @@ a:hover {
 
 #network .profile-pic {
   width: 100%;
+}
+
+.speaker-img {
+  width: 50%;
+  position: absolute;
+}
+
+.speaker-img#top {
+  top: 0;
+  border-bottom: 15px #DAAA00 solid;
+}
+
+.speaker-img#middle {
+  top: calc(37.5% - 13px);
+  margin-left: 25%;
+  border-top: 15px #DAAA00 solid;
+  border-bottom: 15px #DAAA00 solid;
+}
+
+.speaker-img#bottom {
+  top: calc(75% - 11px);
+  margin-left: 50%;
+  border-top: 15px #DAAA00 solid;
 }
 
 /* Footer */

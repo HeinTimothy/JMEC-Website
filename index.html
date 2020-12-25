@@ -80,30 +80,33 @@
 
     <div class="row">
       <div class="col-md-6">
-        <div class="card office-card">
+        <div class="card office-card uncoloured-section">
           <div class="card-header">
-            <h3 class="big-text">West Lafayette Office</h3>
+            <h3 class="big-text name coloured-text">West Lafayette Office</h3>
           </div>
           <img class="card-img-top" src="images/west-lafayette-office.jpg" alt="The West Lafayette Office" />
           <div class="card-body">
             <p class="card-text">
-              We do... we have... our director..
+              We provide resources and space to companies getting started out of Purdue.
+              Our specilization is in growing companies using Purdue IP to their exit.
+              We do this through a series of programs to incubate, support, and provide mentorship to our companies.
             </p>
-            <button type="button" class="btn btn-lg btn-coloured">Get in contact</button>
           </div>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="card office-card">
+        <div class="card office-card uncoloured-section">
           <div class="card-header">
-            <h3 class="big-text">Silicon Valley Office</h3>
+            <h3 class="big-text name coloured-text">Silicon Valley Office</h3>
           </div>
           <img class="card-img-top" src="images/silicon-valley-office.png" alt="The Silicon Valley Office" />
           <div class="card-body">
             <p class="card-text">
-              We do... we have... our director...
+              We help connect Purdue students with opportunities in silicon valley.
+              Here Purdue entrepeneurs can find talent and resources and
+              students looking for work can find internships, co-ops, and full time jobs.
             </p>
-            <button type="button" class="btn btn-lg btn-coloured">Get in contact</button>
+            <a href="https://www.svbig.org/"><button type="button" class="btn btn-lg btn-coloured">Learn More</button></a>
           </div>
         </div>
       </div>
@@ -152,8 +155,6 @@
           <div class="col-7">
             <h3 class="name coloured-text">Join our Socials</h3>
           </div>
-        </div>
-        <div class="row">
           <div class="col-10">
             <p>
               Join the Startup Purdue Community <br>
@@ -162,31 +163,22 @@
             </p>
           </div>
           <div class="col-2">
-            <a href="https://startuppurdue.com/"><i class="fab fa-discord coloured-text"></i></a><br>
-            <a href=""><i class="fas fa-envelope involved-icon"></i></a><br>
-            <a href="https://www.linkedin.com/groups/8923495/"><i class="fab fa-linkedin coloured-text"></i></a>
+            <p>
+              <a href="https://startuppurdue.com/"><i class="fab fa-discord involved-icon"></i></a><br>
+              <a href=""><i class="fas fa-envelope involved-icon"></i></a><br>
+              <a href="https://www.linkedin.com/groups/8923495/"><i class="fab fa-linkedin involved-icon"></i></a>
+            </p>
           </div>
         </div>
         <div class="row">
           <!-- Get in Touch -->
           <div class="col-12">
             <h3 class="name coloured-text">Get in Touch</h3>
-          </div>
-          <div class="col-4">
-            <img src="" alt="A portrait of Timothy">
-            <p>
-              Timothy Hein
-              <span class="subtitle">Assistant at JMEC</span>
-            </p>
-          </div>
-          <div class="col-8">
             <p>
               We support Purdue's early growth stage companies by connecting them
               with industry mentors, helping them commercialize their product, and providing
               resources through our acclerator program.
             </p>
-          </div>
-          <div class="col-12">
             <a href="mailto:heint@purdue.edu"></a>
             <button type="button" class="btn btn-block btn-coloured" name="button">
               Send us a message to learn more about how we can help your company!
@@ -200,13 +192,78 @@
   <!-- Featured Section -->
   <section class="coloured-section" id="featured">
     <h2 class="small-title coloured-text">Featured Companies and Inventors</h2>
-    <div id="featured-carousel" class="carousel slide" data-ride="false">
+    <div id="featured-carousel" class="carousel slide" data-ride="true">
       <!-- Carousel Items -->
       <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <h3 class="big-text">Featured!</h3>
-          <em >Department of Engineering</em>
-          <img class="featured-img" src="" alt="">
+
+        <div class="carousel-item active container-fluid ">
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+              <div class="company-box">
+                <img src="images/hysonic-logo.png" class="company-img" alt="Hysonic">
+                <p class="company-text">
+                  <span class="name">HySonic Technologies</span><br>
+                  HySonic Technologies (HySonic) specializes in the development of computational models
+                  for the simulation of flow problems of interest to the defense industry.
+                  Already funded by NASA-Ames and US Navy to carry out modeling of
+                  turbine engine noise control and hypersonic vehicles,
+                  HySonic is also engaging customers (federal and private)
+                  in the field of prediction of combustion instabilities (i.e. thermoacoustics),
+                  hypersonic and supersonic flow, high-speed turbulence and aero-acoustics.
+                  <a href="https://www.purdue.edu/newsroom/releases/2019/Q2/hysonic-technologies-receives-navy-grant-to-provide-computational-modeling-support-for-hypersonic-vehicle-design.html" class="company-btn-comtainer" target="_blank">
+                    <button type="button" class="btn btn-block btn-coloured btn-company" name="button">Learn More</button>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+
+        <div class="carousel-item container-fluid ">
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+              <div class="company-box">
+                <img src="images/neurava-logo.webp" class="company-img" alt="Neurava">
+                <p class="company-text">
+                  <span class="name">Neurava</span><br>
+                  We are developing a patent protected wearable device for epilepsy patients at risk of
+                  Sudden, Unexpected Death in Epilepsy.
+                  Our wearable device monitors key physiological signals associated with SUDEP
+                  to alert for seizure, cardiorespiratory dysfunctions and impending SUDEP risk,
+                  allowing real-time preventative action.
+                  <a href="https://neurava.org/" class="company-btn-comtainer" target="_blank">
+                    <button type="button" class="btn btn-block btn-coloured btn-company" name="button">Learn More</button>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+
+        <div class="carousel-item container-fluid ">
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+              <div class="company-box">
+                <img src="images/adipo-therapeutics.png" class="company-img" alt="Adipo">
+                <p class="company-text">
+                  <span class="name">Adipo Therapeutics</span><br>
+                  Adipo is a biotech company developing a method to treat type-2 diabetes
+                  using a polymer-based, Notch-inhibiting nanoparticles that are injected directly into adipose (fat)
+                  tissue to induce browning, or white-to-beige adipocyte transformation.
+                  This treatment uses the body's own physiology to raise energy expenditure,
+                  reduce adiposity, and improve insulin resistance.
+                  <a href="https://adipotherapeutics.com/" target="_blank">
+                    <button type="button" class="btn btn-block btn-coloured btn-company" name="button">Learn More</button>
+                  </a>
+                </p>
+              </div>
+            <div class="col-3"></div>
+          </div>
         </div>
       </div>
       <!-- Carousel Items End -->
@@ -240,12 +297,12 @@
         <h3 class="name coloured-text">Opportunities</h3>
         <div class="row network-row">
           <div class="col-12">
-            <p>
-              Be an advisor to our companies <br>
-              Speak at an event <br>
-              Meet up and coming CEOs <br>
-              Explore active fundraising <br>
-            </p>
+            <ul>
+              <li>Be a mentor to our compnies</li>
+              <li>Speak at events</li>
+              <li>Meet up and coming entrepeneurs</li>
+              <li>Explore active fundraising</li>
+            </ul>
           </div>
         </div>
         <h3 class="name coloured-text">Talk With Us</h3>
@@ -276,9 +333,9 @@
         </div>
       </div>
       <div class="col-4">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <img id="top" class="speaker-img" src="images/speaker1.jpg" alt="A speaker at the Forge Innovation Night">
+        <img id="middle" class="speaker-img" src="images/speaker2.jfif" alt="The dean of engineering">
+        <img id="bottom" class="speaker-img" src="images/speaker3.jfif" alt="The director for the certificate of entrepeneurship">
       </div>
     </div>
   </section>
