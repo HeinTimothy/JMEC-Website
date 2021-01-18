@@ -276,26 +276,43 @@ button.callout {
 /* Network */
 
 #network {
-  padding: 5% 0 5% 9%;
-}
-
-.network-row {
-  padding: 2% 0;
+  padding: 5% 4% 5% 9%;
 }
 
 #network .profile-pic {
   width: 100%;
 }
 
+#network .subtitle {
+  text-align: center;
+  padding: .4rem;
+}
+
+.network-profile {
+  padding: 0 0 2%;
+}
+
 .speaker-col {
-  display: flex;
+  padding: 0 2rem;
 }
 
 .speaker-img {
-  object-fit: contain;
-  flex-grow: 1;
-  max-width: 100%;
-  max-height: 100%;
+  object-fit: scale-down;
+  object-position: 0 0;
+  display: block;
+  height: 35vh;
+  width: 100%;
+  vertical-align: left;
+}
+
+.speaker-img.right {
+  object-position: 100% 0;
+  vertical-align: right;
+}
+
+.speaker-caption {
+  text-align: center;
+  padding: .5rem;
 }
 
 /* Footer */
